@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4F9A588-88AF-492B-B46E-365777E0CBF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WF_Tournoi_esport</RootNamespace>
+    <AssemblyName>WF_Tournoi_esport</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAjouterJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjouterJeu.Designer.cs">
+      <DependentUpon>frmAjouterJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnexInscri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnexInscri.Designer.cs">
+      <DependentUpon>frmConnexInscri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreaModifTournoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreaModifTournoi.Designer.cs">
+      <DependentUpon>frmCreaModifTournoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifierProfilJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifierProfilJoueur.Designer.cs">
+      <DependentUpon>frmModifierProfilJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipaleMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipaleMDI.Designer.cs">
+      <DependentUpon>frmPrincipaleMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProfilJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProfilJoueur.Designer.cs">
+      <DependentUpon>frmProfilJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProfilOrganisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProfilOrganisateur.Designer.cs">
+      <DependentUpon>frmProfilOrganisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTournoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTournoi.Designer.cs">
+      <DependentUpon>frmTournoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAjouterJeu.resx">
+      <DependentUpon>frmAjouterJeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnexInscri.resx">
+      <DependentUpon>frmConnexInscri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreaModifTournoi.resx">
+      <DependentUpon>frmCreaModifTournoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifierProfilJoueur.resx">
+      <DependentUpon>frmModifierProfilJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipaleMDI.resx">
+      <DependentUpon>frmPrincipaleMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProfilJoueur.resx">
+      <DependentUpon>frmProfilJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProfilOrganisateur.resx">
+      <DependentUpon>frmProfilOrganisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTournoi.resx">
+      <DependentUpon>frmTournoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
