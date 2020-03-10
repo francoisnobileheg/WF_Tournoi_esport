@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNomOrganisation = new System.Windows.Forms.Label();
             this.txtNomOrganisation = new System.Windows.Forms.TextBox();
             this.chkOrganisateur = new System.Windows.Forms.CheckBox();
             this.lblNomInscr = new System.Windows.Forms.Label();
@@ -46,15 +46,15 @@
             this.btnInscr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblNomOrganisation
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 248);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Nom de l\'&organisation :";
+            this.lblNomOrganisation.AutoSize = true;
+            this.lblNomOrganisation.Location = new System.Drawing.Point(40, 248);
+            this.lblNomOrganisation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNomOrganisation.Name = "lblNomOrganisation";
+            this.lblNomOrganisation.Size = new System.Drawing.Size(114, 13);
+            this.lblNomOrganisation.TabIndex = 13;
+            this.lblNomOrganisation.Text = "Nom de l\'&organisation :";
             // 
             // txtNomOrganisation
             // 
@@ -218,7 +218,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 338);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblNomOrganisation);
             this.Controls.Add(this.txtNomOrganisation);
             this.Controls.Add(this.chkOrganisateur);
             this.Controls.Add(this.lblNomInscr);
@@ -247,7 +247,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNomOrganisation;
         private System.Windows.Forms.TextBox txtNomOrganisation;
         private System.Windows.Forms.CheckBox chkOrganisateur;
         private System.Windows.Forms.Label lblNomInscr;

@@ -34,11 +34,11 @@
             this.lblTournois = new System.Windows.Forms.Label();
             this.dtgTournoiConcourus = new System.Windows.Forms.DataGridView();
             this.cmsTournois = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.seDésinscrireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrDesincrire = new System.Windows.Forms.ToolStripMenuItem();
             this.lblListeJeux = new System.Windows.Forms.Label();
             this.dtgListeJeux = new System.Windows.Forms.DataGridView();
             this.cmsListeJeux = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.supprimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrSupprimer = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAjouterJeu = new System.Windows.Forms.Button();
             this.btnChercherTournoi = new System.Windows.Forms.Button();
             this.chkAVenir = new System.Windows.Forms.CheckBox();
@@ -100,16 +100,16 @@
             // cmsTournois
             // 
             this.cmsTournois.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.seDésinscrireToolStripMenuItem});
+            this.tsrDesincrire});
             this.cmsTournois.Name = "cmsTournois";
             this.cmsTournois.Size = new System.Drawing.Size(146, 26);
             // 
-            // seDésinscrireToolStripMenuItem
+            // tsrDesincrire
             // 
-            this.seDésinscrireToolStripMenuItem.Name = "seDésinscrireToolStripMenuItem";
-            this.seDésinscrireToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.seDésinscrireToolStripMenuItem.Text = "Se désinscrire";
-            this.seDésinscrireToolStripMenuItem.Click += new System.EventHandler(this.seDésinscrireToolStripMenuItem_Click);
+            this.tsrDesincrire.Name = "tsrDesincrire";
+            this.tsrDesincrire.Size = new System.Drawing.Size(145, 22);
+            this.tsrDesincrire.Text = "Se désinscrire";
+            this.tsrDesincrire.Click += new System.EventHandler(this.seDésinscrireToolStripMenuItem_Click);
             // 
             // lblListeJeux
             // 
@@ -141,16 +141,16 @@
             // 
             this.cmsListeJeux.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.cmsListeJeux.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.supprimerToolStripMenuItem});
+            this.tsrSupprimer});
             this.cmsListeJeux.Name = "cmsListeJeux";
             this.cmsListeJeux.Size = new System.Drawing.Size(130, 26);
             // 
-            // supprimerToolStripMenuItem
+            // tsrSupprimer
             // 
-            this.supprimerToolStripMenuItem.Name = "supprimerToolStripMenuItem";
-            this.supprimerToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
-            this.supprimerToolStripMenuItem.Text = "Supprimer";
-            this.supprimerToolStripMenuItem.Click += new System.EventHandler(this.supprimerToolStripMenuItem_Click);
+            this.tsrSupprimer.Name = "tsrSupprimer";
+            this.tsrSupprimer.Size = new System.Drawing.Size(129, 22);
+            this.tsrSupprimer.Text = "Supprimer";
+            this.tsrSupprimer.Click += new System.EventHandler(this.supprimerToolStripMenuItem_Click);
             // 
             // btnAjouterJeu
             // 
@@ -241,8 +241,8 @@
         private System.Windows.Forms.CheckBox chkAVenir;
         private System.Windows.Forms.Button btnSimuTournoi;
         private System.Windows.Forms.ContextMenuStrip cmsListeJeux;
-        private System.Windows.Forms.ToolStripMenuItem supprimerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsrSupprimer;
         private System.Windows.Forms.ContextMenuStrip cmsTournois;
-        private System.Windows.Forms.ToolStripMenuItem seDésinscrireToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsrDesincrire;
     }
 }

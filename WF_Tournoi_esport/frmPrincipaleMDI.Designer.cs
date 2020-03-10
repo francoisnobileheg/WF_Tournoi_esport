@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.mnsPrincipal = new System.Windows.Forms.MenuStrip();
+            this.tsrApplication = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrQuitter = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrAffichage = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrHorizontal = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrVertical = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,9 +38,7 @@
             this.tsrFenetre = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrProfilJoueur = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrProfilOrganisateur = new System.Windows.Forms.ToolStripMenuItem();
-            this.frmConnexionInscriptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsrApplication = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsrQuitter = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrConnexionInscription = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +56,21 @@
             this.mnsPrincipal.TabIndex = 0;
             this.mnsPrincipal.Text = "menuStrip1";
             // 
+            // tsrApplication
+            // 
+            this.tsrApplication.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsrQuitter});
+            this.tsrApplication.Name = "tsrApplication";
+            this.tsrApplication.Size = new System.Drawing.Size(80, 22);
+            this.tsrApplication.Text = "&Application";
+            // 
+            // tsrQuitter
+            // 
+            this.tsrQuitter.Name = "tsrQuitter";
+            this.tsrQuitter.Size = new System.Drawing.Size(111, 22);
+            this.tsrQuitter.Text = "&Quitter";
+            this.tsrQuitter.Click += new System.EventHandler(this.tsrQuitter_Click);
+            // 
             // tsrAffichage
             // 
             this.tsrAffichage.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -69,21 +84,21 @@
             // tsrHorizontal
             // 
             this.tsrHorizontal.Name = "tsrHorizontal";
-            this.tsrHorizontal.Size = new System.Drawing.Size(180, 22);
+            this.tsrHorizontal.Size = new System.Drawing.Size(129, 22);
             this.tsrHorizontal.Text = "&Horizontal";
             this.tsrHorizontal.Click += new System.EventHandler(this.tsrHorizontal_Click);
             // 
             // tsrVertical
             // 
             this.tsrVertical.Name = "tsrVertical";
-            this.tsrVertical.Size = new System.Drawing.Size(180, 22);
+            this.tsrVertical.Size = new System.Drawing.Size(129, 22);
             this.tsrVertical.Text = "&Vertical";
             this.tsrVertical.Click += new System.EventHandler(this.tsrVertical_Click);
             // 
             // tsrCascade
             // 
             this.tsrCascade.Name = "tsrCascade";
-            this.tsrCascade.Size = new System.Drawing.Size(180, 22);
+            this.tsrCascade.Size = new System.Drawing.Size(129, 22);
             this.tsrCascade.Text = "&Cascade";
             this.tsrCascade.Click += new System.EventHandler(this.tsrCascade_Click);
             // 
@@ -92,7 +107,7 @@
             this.tsrFenetre.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsrProfilJoueur,
             this.tsrProfilOrganisateur,
-            this.frmConnexionInscriptionToolStripMenuItem});
+            this.tsrConnexionInscription});
             this.tsrFenetre.Name = "tsrFenetre";
             this.tsrFenetre.Size = new System.Drawing.Size(58, 22);
             this.tsrFenetre.Text = "Fenêtre";
@@ -111,27 +126,12 @@
             this.tsrProfilOrganisateur.Text = "ProfilOrganisateur";
             this.tsrProfilOrganisateur.Click += new System.EventHandler(this.tsrProfilOrganisateur_Click);
             // 
-            // frmConnexionInscriptionToolStripMenuItem
+            // tsrConnexionInscription
             // 
-            this.frmConnexionInscriptionToolStripMenuItem.Name = "frmConnexionInscriptionToolStripMenuItem";
-            this.frmConnexionInscriptionToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.frmConnexionInscriptionToolStripMenuItem.Text = "ConnexionInscription";
-            this.frmConnexionInscriptionToolStripMenuItem.Click += new System.EventHandler(this.frmConnexionInscriptionToolStripMenuItem_Click);
-            // 
-            // tsrApplication
-            // 
-            this.tsrApplication.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsrQuitter});
-            this.tsrApplication.Name = "tsrApplication";
-            this.tsrApplication.Size = new System.Drawing.Size(80, 22);
-            this.tsrApplication.Text = "&Application";
-            // 
-            // tsrQuitter
-            // 
-            this.tsrQuitter.Name = "tsrQuitter";
-            this.tsrQuitter.Size = new System.Drawing.Size(180, 22);
-            this.tsrQuitter.Text = "&Quitter";
-            this.tsrQuitter.Click += new System.EventHandler(this.tsrQuitter_Click);
+            this.tsrConnexionInscription.Name = "tsrConnexionInscription";
+            this.tsrConnexionInscription.Size = new System.Drawing.Size(188, 22);
+            this.tsrConnexionInscription.Text = "ConnexionInscription";
+            this.tsrConnexionInscription.Click += new System.EventHandler(this.frmConnexionInscriptionToolStripMenuItem_Click);
             // 
             // frmPrincipaleMDI
             // 
@@ -163,7 +163,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsrFenetre;
         private System.Windows.Forms.ToolStripMenuItem tsrProfilJoueur;
         private System.Windows.Forms.ToolStripMenuItem tsrProfilOrganisateur;
-        private System.Windows.Forms.ToolStripMenuItem frmConnexionInscriptionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsrConnexionInscription;
         private System.Windows.Forms.ToolStripMenuItem tsrApplication;
         private System.Windows.Forms.ToolStripMenuItem tsrQuitter;
     }

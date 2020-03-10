@@ -41,7 +41,7 @@
             this.txtJeu = new System.Windows.Forms.TextBox();
             this.txtLieu = new System.Windows.Forms.TextBox();
             this.txtHeure = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
             this.txtRecompenses = new System.Windows.Forms.TextBox();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.nudNbJoueurs = new System.Windows.Forms.NumericUpDown();
@@ -189,16 +189,16 @@
             this.txtHeure.Size = new System.Drawing.Size(31, 20);
             this.txtHeure.TabIndex = 11;
             // 
-            // label1
+            // lblDescription
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 273);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Descri&ption :";
+            this.lblDescription.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Location = new System.Drawing.Point(46, 273);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(66, 13);
+            this.lblDescription.TabIndex = 17;
+            this.lblDescription.Text = "Descri&ption :";
             // 
             // txtRecompenses
             // 
@@ -316,7 +316,7 @@
             this.Controls.Add(this.nudNbJoueurs);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.txtRecompenses);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.txtHeure);
             this.Controls.Add(this.txtLieu);
             this.Controls.Add(this.txtJeu);
@@ -360,7 +360,7 @@
         private System.Windows.Forms.TextBox txtJeu;
         private System.Windows.Forms.TextBox txtLieu;
         private System.Windows.Forms.TextBox txtHeure;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.TextBox txtRecompenses;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.NumericUpDown nudNbJoueurs;
