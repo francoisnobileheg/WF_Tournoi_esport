@@ -204,10 +204,10 @@
             // 
             this.btnInscr.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnInscr.Location = new System.Drawing.Point(26, 279);
+            this.btnInscr.Location = new System.Drawing.Point(54, 281);
             this.btnInscr.Margin = new System.Windows.Forms.Padding(2);
             this.btnInscr.Name = "btnInscr";
-            this.btnInscr.Size = new System.Drawing.Size(343, 56);
+            this.btnInscr.Size = new System.Drawing.Size(269, 36);
             this.btnInscr.TabIndex = 15;
             this.btnInscr.Text = "S\'&inscrire";
             this.btnInscr.UseVisualStyleBackColor = true;
@@ -217,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 370);
+            this.ClientSize = new System.Drawing.Size(380, 338);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNomOrganisation);
             this.Controls.Add(this.chkOrganisateur);
@@ -236,6 +236,7 @@
             this.Controls.Add(this.btnInscr);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(396, 377);
             this.Name = "frmInscription";
             this.Text = "Inscription";
             this.Load += new System.EventHandler(this.frmInscription_Load);

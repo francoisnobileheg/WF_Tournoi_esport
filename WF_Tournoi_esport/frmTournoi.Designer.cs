@@ -145,7 +145,7 @@
             this.txtRecompenses.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtRecompenses.Location = new System.Drawing.Point(119, 197);
-            this.txtRecompenses.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRecompenses.Margin = new System.Windows.Forms.Padding(2);
             this.txtRecompenses.Multiline = true;
             this.txtRecompenses.Name = "txtRecompenses";
             this.txtRecompenses.ReadOnly = true;
@@ -156,46 +156,46 @@
             // 
             this.txtJeu.Enabled = false;
             this.txtJeu.Location = new System.Drawing.Point(119, 44);
-            this.txtJeu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtJeu.Margin = new System.Windows.Forms.Padding(2);
             this.txtJeu.Name = "txtJeu";
             this.txtJeu.ReadOnly = true;
-            this.txtJeu.Size = new System.Drawing.Size(172, 20);
+            this.txtJeu.Size = new System.Drawing.Size(225, 20);
             this.txtJeu.TabIndex = 2;
             // 
             // txtLieu
             // 
             this.txtLieu.Location = new System.Drawing.Point(119, 74);
-            this.txtLieu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLieu.Margin = new System.Windows.Forms.Padding(2);
             this.txtLieu.Name = "txtLieu";
             this.txtLieu.ReadOnly = true;
-            this.txtLieu.Size = new System.Drawing.Size(172, 20);
+            this.txtLieu.Size = new System.Drawing.Size(225, 20);
             this.txtLieu.TabIndex = 4;
             // 
             // txtNbJoueur
             // 
             this.txtNbJoueur.Location = new System.Drawing.Point(119, 101);
-            this.txtNbJoueur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNbJoueur.Margin = new System.Windows.Forms.Padding(2);
             this.txtNbJoueur.Name = "txtNbJoueur";
             this.txtNbJoueur.ReadOnly = true;
-            this.txtNbJoueur.Size = new System.Drawing.Size(172, 20);
+            this.txtNbJoueur.Size = new System.Drawing.Size(225, 20);
             this.txtNbJoueur.TabIndex = 6;
             // 
             // txtDate
             // 
             this.txtDate.Location = new System.Drawing.Point(119, 134);
-            this.txtDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDate.Margin = new System.Windows.Forms.Padding(2);
             this.txtDate.Name = "txtDate";
             this.txtDate.ReadOnly = true;
-            this.txtDate.Size = new System.Drawing.Size(172, 20);
+            this.txtDate.Size = new System.Drawing.Size(225, 20);
             this.txtDate.TabIndex = 8;
             // 
             // txtHeure
             // 
             this.txtHeure.Location = new System.Drawing.Point(119, 164);
-            this.txtHeure.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtHeure.Margin = new System.Windows.Forms.Padding(2);
             this.txtHeure.Name = "txtHeure";
             this.txtHeure.ReadOnly = true;
-            this.txtHeure.Size = new System.Drawing.Size(172, 20);
+            this.txtHeure.Size = new System.Drawing.Size(225, 20);
             this.txtHeure.TabIndex = 10;
             // 
             // txtDescription
@@ -204,7 +204,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescription.Location = new System.Drawing.Point(119, 264);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.ReadOnly = true;
@@ -215,7 +215,7 @@
             // 
             this.txtFrais.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtFrais.Location = new System.Drawing.Point(226, 389);
-            this.txtFrais.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFrais.Margin = new System.Windows.Forms.Padding(2);
             this.txtFrais.Name = "txtFrais";
             this.txtFrais.ReadOnly = true;
             this.txtFrais.Size = new System.Drawing.Size(118, 20);
@@ -224,10 +224,10 @@
             // btnInscriptionTournoi
             // 
             this.btnInscriptionTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnInscriptionTournoi.Location = new System.Drawing.Point(12, 376);
-            this.btnInscriptionTournoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInscriptionTournoi.Location = new System.Drawing.Point(12, 384);
+            this.btnInscriptionTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnInscriptionTournoi.Name = "btnInscriptionTournoi";
-            this.btnInscriptionTournoi.Size = new System.Drawing.Size(108, 41);
+            this.btnInscriptionTournoi.Size = new System.Drawing.Size(106, 36);
             this.btnInscriptionTournoi.TabIndex = 15;
             this.btnInscriptionTournoi.Text = "S\'inscrire";
             this.btnInscriptionTournoi.UseVisualStyleBackColor = true;
@@ -255,7 +255,7 @@
             this.Controls.Add(this.lblLieu);
             this.Controls.Add(this.lblJeu);
             this.Controls.Add(this.lblNomTournoi);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(374, 470);
             this.Name = "frmTournoi";
             this.Text = "Tournoi";

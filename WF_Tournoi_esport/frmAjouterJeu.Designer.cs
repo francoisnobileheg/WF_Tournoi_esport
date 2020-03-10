@@ -36,9 +36,9 @@
             // btnAjouter
             // 
             this.btnAjouter.Location = new System.Drawing.Point(6, 53);
-            this.btnAjouter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAjouter.Margin = new System.Windows.Forms.Padding(2);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(131, 55);
+            this.btnAjouter.Size = new System.Drawing.Size(130, 36);
             this.btnAjouter.TabIndex = 1;
             this.btnAjouter.Text = "&Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@
             // 
             this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnAnnuler.Location = new System.Drawing.Point(140, 53);
-            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(131, 55);
+            this.btnAnnuler.Size = new System.Drawing.Size(133, 36);
             this.btnAnnuler.TabIndex = 2;
             this.btnAnnuler.Text = "A&nnuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // txtJeu
             // 
             this.txtJeu.Location = new System.Drawing.Point(6, 17);
-            this.txtJeu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtJeu.Margin = new System.Windows.Forms.Padding(2);
             this.txtJeu.Name = "txtJeu";
             this.txtJeu.Size = new System.Drawing.Size(267, 20);
             this.txtJeu.TabIndex = 0;
@@ -73,7 +73,7 @@
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnAjouter);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(300, 161);
             this.MinimizeBox = false;

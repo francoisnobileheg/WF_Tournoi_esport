@@ -61,7 +61,7 @@
             this.txtNomTournoi.Location = new System.Drawing.Point(115, 21);
             this.txtNomTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.txtNomTournoi.Name = "txtNomTournoi";
-            this.txtNomTournoi.Size = new System.Drawing.Size(184, 20);
+            this.txtNomTournoi.Size = new System.Drawing.Size(306, 20);
             this.txtNomTournoi.TabIndex = 1;
             // 
             // lblNomTournoi
@@ -168,7 +168,7 @@
             this.txtJeu.Location = new System.Drawing.Point(115, 51);
             this.txtJeu.Margin = new System.Windows.Forms.Padding(2);
             this.txtJeu.Name = "txtJeu";
-            this.txtJeu.Size = new System.Drawing.Size(184, 20);
+            this.txtJeu.Size = new System.Drawing.Size(306, 20);
             this.txtJeu.TabIndex = 3;
             // 
             // txtLieu
@@ -177,7 +177,7 @@
             this.txtLieu.Location = new System.Drawing.Point(115, 81);
             this.txtLieu.Margin = new System.Windows.Forms.Padding(2);
             this.txtLieu.Name = "txtLieu";
-            this.txtLieu.Size = new System.Drawing.Size(184, 20);
+            this.txtLieu.Size = new System.Drawing.Size(306, 20);
             this.txtLieu.TabIndex = 5;
             // 
             // txtHeure
@@ -280,22 +280,23 @@
             // btnEnregistrer
             // 
             this.btnEnregistrer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEnregistrer.Location = new System.Drawing.Point(19, 439);
+            this.btnEnregistrer.Location = new System.Drawing.Point(11, 439);
             this.btnEnregistrer.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(174, 59);
+            this.btnEnregistrer.Size = new System.Drawing.Size(211, 36);
             this.btnEnregistrer.TabIndex = 21;
             this.btnEnregistrer.Text = "&Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
+            this.btnEnregistrer.Click += new System.EventHandler(this.btnEnregistrer_Click);
             // 
             // btnAnnuler
             // 
             this.btnAnnuler.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnAnnuler.Location = new System.Drawing.Point(247, 439);
+            this.btnAnnuler.Location = new System.Drawing.Point(226, 439);
             this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(174, 59);
+            this.btnAnnuler.Size = new System.Drawing.Size(211, 36);
             this.btnAnnuler.TabIndex = 22;
             this.btnAnnuler.Text = "&Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;

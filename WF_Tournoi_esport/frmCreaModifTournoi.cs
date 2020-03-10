@@ -16,5 +16,10 @@ namespace WF_Tournoi_esport
         {
             InitializeComponent();
         }
+
+        private void btnEnregistrer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

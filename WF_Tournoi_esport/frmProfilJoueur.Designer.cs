@@ -96,7 +96,7 @@
             this.dtgTournoiConcourus.Name = "dtgTournoiConcourus";
             this.dtgTournoiConcourus.RowHeadersWidth = 82;
             this.dtgTournoiConcourus.RowTemplate.Height = 33;
-            this.dtgTournoiConcourus.Size = new System.Drawing.Size(269, 324);
+            this.dtgTournoiConcourus.Size = new System.Drawing.Size(269, 342);
             this.dtgTournoiConcourus.TabIndex = 4;
             this.dtgTournoiConcourus.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgTournoiConcourus_CellContentClick);
             // 
@@ -116,8 +116,7 @@
             // 
             // lblListeJeux
             // 
-            this.lblListeJeux.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblListeJeux.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblListeJeux.AutoSize = true;
             this.lblListeJeux.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblListeJeux.Location = new System.Drawing.Point(327, 81);
@@ -139,7 +138,7 @@
             this.dtgListeJeux.Name = "dtgListeJeux";
             this.dtgListeJeux.RowHeadersWidth = 82;
             this.dtgListeJeux.RowTemplate.Height = 33;
-            this.dtgListeJeux.Size = new System.Drawing.Size(211, 326);
+            this.dtgListeJeux.Size = new System.Drawing.Size(211, 344);
             this.dtgListeJeux.TabIndex = 7;
             this.dtgListeJeux.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListeJeux_CellContentClick);
             // 
@@ -162,7 +161,7 @@
             // btnAjouterJeu
             // 
             this.btnAjouterJeu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAjouterJeu.Location = new System.Drawing.Point(333, 444);
+            this.btnAjouterJeu.Location = new System.Drawing.Point(333, 462);
             this.btnAjouterJeu.Margin = new System.Windows.Forms.Padding(2);
             this.btnAjouterJeu.Name = "btnAjouterJeu";
             this.btnAjouterJeu.Size = new System.Drawing.Size(211, 36);
@@ -175,7 +174,7 @@
             // 
             this.btnChercherTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnChercherTournoi.Location = new System.Drawing.Point(11, 444);
+            this.btnChercherTournoi.Location = new System.Drawing.Point(11, 462);
             this.btnChercherTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnChercherTournoi.Name = "btnChercherTournoi";
             this.btnChercherTournoi.Size = new System.Drawing.Size(269, 36);
@@ -199,7 +198,7 @@
             // btnSimuTournoi
             // 
             this.btnSimuTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSimuTournoi.Location = new System.Drawing.Point(59, 649);
+            this.btnSimuTournoi.Location = new System.Drawing.Point(59, 667);
             this.btnSimuTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnSimuTournoi.Name = "btnSimuTournoi";
             this.btnSimuTournoi.Size = new System.Drawing.Size(124, 198);
@@ -212,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 488);
+            this.ClientSize = new System.Drawing.Size(554, 506);
             this.Controls.Add(this.btnSimuTournoi);
             this.Controls.Add(this.chkAVenir);
             this.Controls.Add(this.btnChercherTournoi);
@@ -224,7 +223,7 @@
             this.Controls.Add(this.btnModifierProfil);
             this.Controls.Add(this.lblPseudo);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(570, 39);
+            this.MinimumSize = new System.Drawing.Size(570, 545);
             this.Name = "frmProfilJoueur";
             this.Text = "Profil";
             this.Load += new System.EventHandler(this.frmProfilJoueur_Load);

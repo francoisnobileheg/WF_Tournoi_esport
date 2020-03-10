@@ -39,10 +39,10 @@
             // btnConnect
             // 
             this.btnConnect.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnConnect.Location = new System.Drawing.Point(11, 78);
+            this.btnConnect.Location = new System.Drawing.Point(87, 82);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(355, 56);
+            this.btnConnect.Size = new System.Drawing.Size(211, 36);
             this.btnConnect.TabIndex = 4;
             this.btnConnect.Text = "Se &connecter";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             // lklInscri
             // 
             this.lklInscri.AutoSize = true;
-            this.lklInscri.Location = new System.Drawing.Point(145, 156);
+            this.lklInscri.Location = new System.Drawing.Point(142, 144);
             this.lklInscri.Name = "lklInscri";
             this.lklInscri.Size = new System.Drawing.Size(100, 13);
             this.lklInscri.TabIndex = 5;

@@ -36,6 +36,9 @@
             // 
             // dtgListeTournoi
             // 
+            this.dtgListeTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgListeTournoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgListeTournoi.Location = new System.Drawing.Point(12, 27);
             this.dtgListeTournoi.Name = "dtgListeTournoi";
@@ -54,10 +57,11 @@
             // 
             // btnQuitter
             // 
+            this.btnQuitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnQuitter.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnQuitter.Location = new System.Drawing.Point(12, 444);
             this.btnQuitter.Name = "btnQuitter";
-            this.btnQuitter.Size = new System.Drawing.Size(294, 51);
+            this.btnQuitter.Size = new System.Drawing.Size(294, 36);
             this.btnQuitter.TabIndex = 2;
             this.btnQuitter.Text = "Quitter";
             this.btnQuitter.UseVisualStyleBackColor = true;
@@ -67,10 +71,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnQuitter;
-            this.ClientSize = new System.Drawing.Size(331, 507);
+            this.ClientSize = new System.Drawing.Size(331, 490);
             this.Controls.Add(this.btnQuitter);
             this.Controls.Add(this.lblTitre);
             this.Controls.Add(this.dtgListeTournoi);
+            this.MinimumSize = new System.Drawing.Size(347, 529);
             this.Name = "frmListeTournoi";
             this.Text = "Liste de tournois";
             ((System.ComponentModel.ISupportInitialize)(this.dtgListeTournoi)).EndInit();

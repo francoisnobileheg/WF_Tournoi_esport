@@ -198,7 +198,7 @@
             this.btnEnregistrer.Location = new System.Drawing.Point(10, 224);
             this.btnEnregistrer.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(229, 40);
+            this.btnEnregistrer.Size = new System.Drawing.Size(194, 36);
             this.btnEnregistrer.TabIndex = 12;
             this.btnEnregistrer.Text = "&Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
@@ -209,10 +209,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnAnnuler.Location = new System.Drawing.Point(243, 224);
+            this.btnAnnuler.Location = new System.Drawing.Point(208, 224);
             this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(149, 40);
+            this.btnAnnuler.Size = new System.Drawing.Size(186, 36);
             this.btnAnnuler.TabIndex = 13;
             this.btnAnnuler.Text = "&Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
