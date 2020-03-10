@@ -48,8 +48,19 @@ namespace WF_Tournoi_esport
 
         private void frmConnexionInscriptionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmConnexInscri frmCI = new frmConnexInscri();
+            frmConnexion frmCI = new frmConnexion();
             frmCI.Show();
+        }
+
+        private void frmPrincipaleMDI_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrincipaleMDI_Shown(object sender, EventArgs e)
+        {
+            frmConnexion frm = new frmConnexion();
+            frm.ShowDialog();
         }
     }
 }

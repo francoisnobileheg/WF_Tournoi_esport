@@ -50,9 +50,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNom.AutoSize = true;
-            this.lblNom.Location = new System.Drawing.Point(236, 98);
+            this.lblNom.Location = new System.Drawing.Point(118, 51);
+            this.lblNom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(68, 25);
+            this.lblNom.Size = new System.Drawing.Size(35, 13);
             this.lblNom.TabIndex = 2;
             this.lblNom.Text = "&Nom :";
             // 
@@ -62,9 +63,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrenom.AutoSize = true;
-            this.lblPrenom.Location = new System.Drawing.Point(206, 33);
+            this.lblPrenom.Location = new System.Drawing.Point(103, 17);
+            this.lblPrenom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrenom.Name = "lblPrenom";
-            this.lblPrenom.Size = new System.Drawing.Size(98, 25);
+            this.lblPrenom.Size = new System.Drawing.Size(49, 13);
             this.lblPrenom.TabIndex = 0;
             this.lblPrenom.Text = "&Prénom :";
             // 
@@ -74,9 +76,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(144, 228);
+            this.lblEmail.Location = new System.Drawing.Point(72, 119);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(160, 25);
+            this.lblEmail.Size = new System.Drawing.Size(78, 13);
             this.lblEmail.TabIndex = 6;
             this.lblEmail.Text = "Adresse emai&l :";
             // 
@@ -86,9 +89,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblConfirmMdp.AutoSize = true;
-            this.lblConfirmMdp.Location = new System.Drawing.Point(29, 358);
+            this.lblConfirmMdp.Location = new System.Drawing.Point(14, 186);
+            this.lblConfirmMdp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblConfirmMdp.Name = "lblConfirmMdp";
-            this.lblConfirmMdp.Size = new System.Drawing.Size(275, 25);
+            this.lblConfirmMdp.Size = new System.Drawing.Size(134, 13);
             this.lblConfirmMdp.TabIndex = 10;
             this.lblConfirmMdp.Text = "&Confirmer le mot de passe :";
             // 
@@ -98,9 +102,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMdp.AutoSize = true;
-            this.lblMdp.Location = new System.Drawing.Point(150, 293);
+            this.lblMdp.Location = new System.Drawing.Point(75, 152);
+            this.lblMdp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMdp.Name = "lblMdp";
-            this.lblMdp.Size = new System.Drawing.Size(154, 25);
+            this.lblMdp.Size = new System.Drawing.Size(77, 13);
             this.lblMdp.TabIndex = 8;
             this.lblMdp.Text = "&Mot de passe :";
             // 
@@ -110,9 +115,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPseudo.AutoSize = true;
-            this.lblPseudo.Location = new System.Drawing.Point(207, 163);
+            this.lblPseudo.Location = new System.Drawing.Point(104, 85);
+            this.lblPseudo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPseudo.Name = "lblPseudo";
-            this.lblPseudo.Size = new System.Drawing.Size(97, 25);
+            this.lblPseudo.Size = new System.Drawing.Size(49, 13);
             this.lblPseudo.TabIndex = 4;
             this.lblPseudo.Text = "P&seudo :";
             // 
@@ -121,29 +127,34 @@
             this.txtConfirmMdp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtConfirmMdp.Location = new System.Drawing.Point(310, 355);
+            this.txtConfirmMdp.Location = new System.Drawing.Point(155, 185);
+            this.txtConfirmMdp.Margin = new System.Windows.Forms.Padding(2);
             this.txtConfirmMdp.Name = "txtConfirmMdp";
-            this.txtConfirmMdp.Size = new System.Drawing.Size(255, 31);
+            this.txtConfirmMdp.Size = new System.Drawing.Size(239, 20);
             this.txtConfirmMdp.TabIndex = 11;
+            this.txtConfirmMdp.UseSystemPasswordChar = true;
             // 
             // txtMdp
             // 
             this.txtMdp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMdp.Location = new System.Drawing.Point(310, 290);
+            this.txtMdp.Location = new System.Drawing.Point(155, 151);
+            this.txtMdp.Margin = new System.Windows.Forms.Padding(2);
             this.txtMdp.Name = "txtMdp";
-            this.txtMdp.Size = new System.Drawing.Size(255, 31);
+            this.txtMdp.Size = new System.Drawing.Size(239, 20);
             this.txtMdp.TabIndex = 9;
+            this.txtMdp.UseSystemPasswordChar = true;
             // 
             // txtEmailModif
             // 
             this.txtEmailModif.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEmailModif.Location = new System.Drawing.Point(310, 225);
+            this.txtEmailModif.Location = new System.Drawing.Point(155, 117);
+            this.txtEmailModif.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmailModif.Name = "txtEmailModif";
-            this.txtEmailModif.Size = new System.Drawing.Size(255, 31);
+            this.txtEmailModif.Size = new System.Drawing.Size(239, 20);
             this.txtEmailModif.TabIndex = 7;
             // 
             // txtPseudoModif
@@ -151,9 +162,10 @@
             this.txtPseudoModif.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPseudoModif.Location = new System.Drawing.Point(310, 160);
+            this.txtPseudoModif.Location = new System.Drawing.Point(155, 83);
+            this.txtPseudoModif.Margin = new System.Windows.Forms.Padding(2);
             this.txtPseudoModif.Name = "txtPseudoModif";
-            this.txtPseudoModif.Size = new System.Drawing.Size(255, 31);
+            this.txtPseudoModif.Size = new System.Drawing.Size(239, 20);
             this.txtPseudoModif.TabIndex = 5;
             // 
             // txtNomModif
@@ -161,9 +173,10 @@
             this.txtNomModif.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomModif.Location = new System.Drawing.Point(310, 95);
+            this.txtNomModif.Location = new System.Drawing.Point(155, 49);
+            this.txtNomModif.Margin = new System.Windows.Forms.Padding(2);
             this.txtNomModif.Name = "txtNomModif";
-            this.txtNomModif.Size = new System.Drawing.Size(255, 31);
+            this.txtNomModif.Size = new System.Drawing.Size(239, 20);
             this.txtNomModif.TabIndex = 3;
             // 
             // txtPrenomModif
@@ -171,9 +184,10 @@
             this.txtPrenomModif.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPrenomModif.Location = new System.Drawing.Point(310, 30);
+            this.txtPrenomModif.Location = new System.Drawing.Point(155, 16);
+            this.txtPrenomModif.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrenomModif.Name = "txtPrenomModif";
-            this.txtPrenomModif.Size = new System.Drawing.Size(255, 31);
+            this.txtPrenomModif.Size = new System.Drawing.Size(239, 20);
             this.txtPrenomModif.TabIndex = 1;
             // 
             // btnEnregistrer
@@ -181,9 +195,10 @@
             this.btnEnregistrer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(19, 430);
+            this.btnEnregistrer.Location = new System.Drawing.Point(10, 224);
+            this.btnEnregistrer.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(270, 77);
+            this.btnEnregistrer.Size = new System.Drawing.Size(229, 40);
             this.btnEnregistrer.TabIndex = 12;
             this.btnEnregistrer.Text = "&Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
@@ -193,18 +208,22 @@
             this.btnAnnuler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAnnuler.Location = new System.Drawing.Point(295, 430);
+            this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnAnnuler.Location = new System.Drawing.Point(243, 224);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(270, 77);
+            this.btnAnnuler.Size = new System.Drawing.Size(149, 40);
             this.btnAnnuler.TabIndex = 13;
             this.btnAnnuler.Text = "&Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
             // 
             // frmModifierProfilJoueur
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AcceptButton = this.btnEnregistrer;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 535);
+            this.CancelButton = this.btnAnnuler;
+            this.ClientSize = new System.Drawing.Size(412, 295);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.lblNom);
@@ -219,7 +238,9 @@
             this.Controls.Add(this.txtPseudoModif);
             this.Controls.Add(this.txtNomModif);
             this.Controls.Add(this.txtPrenomModif);
-            this.MinimumSize = new System.Drawing.Size(622, 606);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(428, 334);
             this.Name = "frmModifierProfilJoueur";
             this.Text = "Modifier profil";
             this.Load += new System.EventHandler(this.frmModifierProfilJoueur_Load);

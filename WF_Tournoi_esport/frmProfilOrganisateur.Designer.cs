@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dtgTournoiOrganise = new System.Windows.Forms.DataGridView();
-            this.lblTournoiOrganise = new System.Windows.Forms.Label();
-            this.btnCreerTournoi = new System.Windows.Forms.Button();
             this.cmsTournoi = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsrModifier = new System.Windows.Forms.ToolStripMenuItem();
             this.tsrSupprimer = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblTournoiOrganise = new System.Windows.Forms.Label();
+            this.btnCreerTournoi = new System.Windows.Forms.Button();
             this.btnSimuTournoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTournoiOrganise)).BeginInit();
             this.cmsTournoi.SuspendLayout();
@@ -47,35 +47,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgTournoiOrganise.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgTournoiOrganise.ContextMenuStrip = this.cmsTournoi;
-            this.dtgTournoiOrganise.Location = new System.Drawing.Point(12, 74);
+            this.dtgTournoiOrganise.Location = new System.Drawing.Point(6, 38);
+            this.dtgTournoiOrganise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtgTournoiOrganise.Name = "dtgTournoiOrganise";
             this.dtgTournoiOrganise.RowHeadersWidth = 82;
             this.dtgTournoiOrganise.RowTemplate.Height = 33;
-            this.dtgTournoiOrganise.Size = new System.Drawing.Size(815, 669);
-            this.dtgTournoiOrganise.TabIndex = 0;
-            // 
-            // lblTournoiOrganise
-            // 
-            this.lblTournoiOrganise.AutoSize = true;
-            this.lblTournoiOrganise.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTournoiOrganise.Location = new System.Drawing.Point(12, 8);
-            this.lblTournoiOrganise.Name = "lblTournoiOrganise";
-            this.lblTournoiOrganise.Size = new System.Drawing.Size(487, 63);
-            this.lblTournoiOrganise.TabIndex = 1;
-            this.lblTournoiOrganise.Text = "Tournois organisés";
-            // 
-            // btnCreerTournoi
-            // 
-            this.btnCreerTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCreerTournoi.Location = new System.Drawing.Point(12, 749);
-            this.btnCreerTournoi.Name = "btnCreerTournoi";
-            this.btnCreerTournoi.Size = new System.Drawing.Size(815, 79);
-            this.btnCreerTournoi.TabIndex = 2;
-            this.btnCreerTournoi.Text = "Créer un tournoi";
-            this.btnCreerTournoi.UseVisualStyleBackColor = true;
-            this.btnCreerTournoi.Click += new System.EventHandler(this.btnCreerTournoi_Click);
+            this.dtgTournoiOrganise.Size = new System.Drawing.Size(408, 348);
+            this.dtgTournoiOrganise.TabIndex = 1;
             // 
             // cmsTournoi
             // 
@@ -84,40 +62,67 @@
             this.tsrModifier,
             this.tsrSupprimer});
             this.cmsTournoi.Name = "cmsTournoi";
-            this.cmsTournoi.Size = new System.Drawing.Size(202, 80);
+            this.cmsTournoi.Size = new System.Drawing.Size(130, 48);
             // 
             // tsrModifier
             // 
             this.tsrModifier.Name = "tsrModifier";
-            this.tsrModifier.Size = new System.Drawing.Size(201, 38);
+            this.tsrModifier.Size = new System.Drawing.Size(129, 22);
             this.tsrModifier.Text = "Modifier";
             this.tsrModifier.Click += new System.EventHandler(this.tsrModifier_Click);
             // 
             // tsrSupprimer
             // 
             this.tsrSupprimer.Name = "tsrSupprimer";
-            this.tsrSupprimer.Size = new System.Drawing.Size(201, 38);
+            this.tsrSupprimer.Size = new System.Drawing.Size(129, 22);
             this.tsrSupprimer.Text = "Supprimer";
+            // 
+            // lblTournoiOrganise
+            // 
+            this.lblTournoiOrganise.AutoSize = true;
+            this.lblTournoiOrganise.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTournoiOrganise.Location = new System.Drawing.Point(6, 4);
+            this.lblTournoiOrganise.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTournoiOrganise.Name = "lblTournoiOrganise";
+            this.lblTournoiOrganise.Size = new System.Drawing.Size(245, 31);
+            this.lblTournoiOrganise.TabIndex = 0;
+            this.lblTournoiOrganise.Text = "Tournois organisés";
+            // 
+            // btnCreerTournoi
+            // 
+            this.btnCreerTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCreerTournoi.Location = new System.Drawing.Point(6, 389);
+            this.btnCreerTournoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCreerTournoi.Name = "btnCreerTournoi";
+            this.btnCreerTournoi.Size = new System.Drawing.Size(408, 41);
+            this.btnCreerTournoi.TabIndex = 3;
+            this.btnCreerTournoi.Text = "Créer un tournoi";
+            this.btnCreerTournoi.UseVisualStyleBackColor = true;
+            this.btnCreerTournoi.Click += new System.EventHandler(this.btnCreerTournoi_Click);
             // 
             // btnSimuTournoi
             // 
-            this.btnSimuTournoi.Location = new System.Drawing.Point(193, 327);
+            this.btnSimuTournoi.Location = new System.Drawing.Point(96, 170);
+            this.btnSimuTournoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSimuTournoi.Name = "btnSimuTournoi";
-            this.btnSimuTournoi.Size = new System.Drawing.Size(332, 155);
-            this.btnSimuTournoi.TabIndex = 4;
+            this.btnSimuTournoi.Size = new System.Drawing.Size(166, 81);
+            this.btnSimuTournoi.TabIndex = 2;
             this.btnSimuTournoi.Text = "SimuTournoi";
             this.btnSimuTournoi.UseVisualStyleBackColor = true;
             this.btnSimuTournoi.Click += new System.EventHandler(this.btnSimuTournoi_Click);
             // 
             // frmProfilOrganisateur
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 841);
+            this.ClientSize = new System.Drawing.Size(422, 437);
             this.Controls.Add(this.btnSimuTournoi);
             this.Controls.Add(this.btnCreerTournoi);
             this.Controls.Add(this.lblTournoiOrganise);
             this.Controls.Add(this.dtgTournoiOrganise);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(438, 476);
             this.Name = "frmProfilOrganisateur";
             this.Text = "Profil Organisateur";
             ((System.ComponentModel.ISupportInitialize)(this.dtgTournoiOrganise)).EndInit();

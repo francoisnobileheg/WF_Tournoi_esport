@@ -63,7 +63,8 @@ namespace WF_Tournoi_esport
 
         private void btnChercherTournoi_Click(object sender, EventArgs e)
         {
-
+            frmListeTournoi frmLstTournoi = new frmListeTournoi();
+            frmLstTournoi.Show();
         }
 
         private void chkAVenir_CheckedChanged(object sender, EventArgs e)
@@ -84,6 +85,12 @@ namespace WF_Tournoi_esport
         private void lblPseudo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void seDésinscrireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Voulez-vous vraiment vous désinscrire de ce tournoi ?",
+                "Se désinscrire", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
         }
     }
 }

@@ -52,17 +52,29 @@
     <Compile Include="frmAjouterJeu.Designer.cs">
       <DependentUpon>frmAjouterJeu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConnexInscri.cs">
+    <Compile Include="frmConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConnexInscri.Designer.cs">
-      <DependentUpon>frmConnexInscri.cs</DependentUpon>
+    <Compile Include="frmConnexion.Designer.cs">
+      <DependentUpon>frmConnexion.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCreaModifTournoi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCreaModifTournoi.Designer.cs">
       <DependentUpon>frmCreaModifTournoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscription.Designer.cs">
+      <DependentUpon>frmInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListeTournoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListeTournoi.Designer.cs">
+      <DependentUpon>frmListeTournoi.cs</DependentUpon>
     </Compile>
     <Compile Include="frmModifierProfilJoueur.cs">
       <SubType>Form</SubType>
@@ -99,11 +111,17 @@
     <EmbeddedResource Include="frmAjouterJeu.resx">
       <DependentUpon>frmAjouterJeu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConnexInscri.resx">
-      <DependentUpon>frmConnexInscri.cs</DependentUpon>
+    <EmbeddedResource Include="frmConnexion.resx">
+      <DependentUpon>frmConnexion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCreaModifTournoi.resx">
       <DependentUpon>frmCreaModifTournoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscription.resx">
+      <DependentUpon>frmInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListeTournoi.resx">
+      <DependentUpon>frmListeTournoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmModifierProfilJoueur.resx">
       <DependentUpon>frmModifierProfilJoueur.cs</DependentUpon>

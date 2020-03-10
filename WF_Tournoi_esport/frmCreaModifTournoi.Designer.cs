@@ -57,193 +57,179 @@
             // 
             // txtNomTournoi
             // 
-            this.txtNomTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomTournoi.Location = new System.Drawing.Point(234, 33);
+            this.txtNomTournoi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtNomTournoi.Location = new System.Drawing.Point(115, 21);
+            this.txtNomTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.txtNomTournoi.Name = "txtNomTournoi";
-            this.txtNomTournoi.Size = new System.Drawing.Size(364, 31);
+            this.txtNomTournoi.Size = new System.Drawing.Size(184, 20);
             this.txtNomTournoi.TabIndex = 1;
             // 
             // lblNomTournoi
             // 
-            this.lblNomTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNomTournoi.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNomTournoi.AutoSize = true;
-            this.lblNomTournoi.Location = new System.Drawing.Point(58, 36);
+            this.lblNomTournoi.Location = new System.Drawing.Point(27, 23);
+            this.lblNomTournoi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNomTournoi.Name = "lblNomTournoi";
-            this.lblNomTournoi.Size = new System.Drawing.Size(170, 25);
+            this.lblNomTournoi.Size = new System.Drawing.Size(85, 13);
             this.lblNomTournoi.TabIndex = 0;
             this.lblNomTournoi.Text = "&Nom du tournoi :";
             // 
             // lblJeu
             // 
-            this.lblJeu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblJeu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblJeu.AutoSize = true;
-            this.lblJeu.Location = new System.Drawing.Point(169, 94);
+            this.lblJeu.Location = new System.Drawing.Point(82, 53);
+            this.lblJeu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblJeu.Name = "lblJeu";
-            this.lblJeu.Size = new System.Drawing.Size(59, 25);
+            this.lblJeu.Size = new System.Drawing.Size(30, 13);
             this.lblJeu.TabIndex = 2;
             this.lblJeu.Text = "&Jeu :";
             // 
             // lblLieu
             // 
-            this.lblLieu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblLieu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblLieu.AutoSize = true;
-            this.lblLieu.Location = new System.Drawing.Point(163, 152);
+            this.lblLieu.Location = new System.Drawing.Point(80, 83);
+            this.lblLieu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLieu.Name = "lblLieu";
-            this.lblLieu.Size = new System.Drawing.Size(65, 25);
+            this.lblLieu.Size = new System.Drawing.Size(33, 13);
             this.lblLieu.TabIndex = 4;
             this.lblLieu.Text = "&Lieu :";
             // 
             // lblNbJoueurs
             // 
-            this.lblNbJoueurs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNbJoueurs.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNbJoueurs.AutoSize = true;
-            this.lblNbJoueurs.Location = new System.Drawing.Point(22, 210);
+            this.lblNbJoueurs.Location = new System.Drawing.Point(9, 113);
+            this.lblNbJoueurs.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNbJoueurs.Name = "lblNbJoueurs";
-            this.lblNbJoueurs.Size = new System.Drawing.Size(206, 25);
+            this.lblNbJoueurs.Size = new System.Drawing.Size(102, 13);
             this.lblNbJoueurs.TabIndex = 6;
             this.lblNbJoueurs.Text = "Nom&bre de joueurs :";
             // 
             // lblDate
             // 
-            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDate.AutoSize = true;
-            this.lblDate.Location = new System.Drawing.Point(159, 268);
+            this.lblDate.Location = new System.Drawing.Point(78, 143);
+            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(69, 25);
+            this.lblDate.Size = new System.Drawing.Size(36, 13);
             this.lblDate.TabIndex = 8;
             this.lblDate.Text = "&Date :";
             // 
             // lblHeure
             // 
-            this.lblHeure.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblHeure.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHeure.AutoSize = true;
-            this.lblHeure.Location = new System.Drawing.Point(146, 326);
+            this.lblHeure.Location = new System.Drawing.Point(71, 174);
+            this.lblHeure.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeure.Name = "lblHeure";
-            this.lblHeure.Size = new System.Drawing.Size(82, 25);
+            this.lblHeure.Size = new System.Drawing.Size(42, 13);
             this.lblHeure.TabIndex = 10;
             this.lblHeure.Text = "&Heure :";
             // 
             // lblRecompenses
             // 
-            this.lblRecompenses.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRecompenses.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblRecompenses.AutoSize = true;
-            this.lblRecompenses.Location = new System.Drawing.Point(67, 385);
+            this.lblRecompenses.Location = new System.Drawing.Point(32, 204);
+            this.lblRecompenses.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRecompenses.Name = "lblRecompenses";
-            this.lblRecompenses.Size = new System.Drawing.Size(161, 25);
+            this.lblRecompenses.Size = new System.Drawing.Size(81, 13);
             this.lblRecompenses.TabIndex = 15;
             this.lblRecompenses.Text = "&Récompenses :";
             // 
             // lblFraisInscription
             // 
-            this.lblFraisInscription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFraisInscription.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblFraisInscription.AutoSize = true;
-            this.lblFraisInscription.Location = new System.Drawing.Point(36, 730);
+            this.lblFraisInscription.Location = new System.Drawing.Point(16, 384);
+            this.lblFraisInscription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFraisInscription.Name = "lblFraisInscription";
-            this.lblFraisInscription.Size = new System.Drawing.Size(192, 25);
+            this.lblFraisInscription.Size = new System.Drawing.Size(93, 13);
             this.lblFraisInscription.TabIndex = 19;
             this.lblFraisInscription.Text = "&Frais d\'inscription :";
             // 
             // dtpDateTournoi
             // 
-            this.dtpDateTournoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpDateTournoi.Location = new System.Drawing.Point(234, 263);
+            this.dtpDateTournoi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtpDateTournoi.Location = new System.Drawing.Point(115, 141);
+            this.dtpDateTournoi.Margin = new System.Windows.Forms.Padding(2);
             this.dtpDateTournoi.MinDate = new System.DateTime(2020, 3, 2, 0, 0, 0, 0);
             this.dtpDateTournoi.Name = "dtpDateTournoi";
-            this.dtpDateTournoi.Size = new System.Drawing.Size(364, 31);
+            this.dtpDateTournoi.Size = new System.Drawing.Size(184, 20);
             this.dtpDateTournoi.TabIndex = 9;
             // 
             // txtJeu
             // 
-            this.txtJeu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtJeu.Location = new System.Drawing.Point(234, 91);
+            this.txtJeu.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtJeu.Location = new System.Drawing.Point(115, 51);
+            this.txtJeu.Margin = new System.Windows.Forms.Padding(2);
             this.txtJeu.Name = "txtJeu";
-            this.txtJeu.Size = new System.Drawing.Size(364, 31);
+            this.txtJeu.Size = new System.Drawing.Size(184, 20);
             this.txtJeu.TabIndex = 3;
             // 
             // txtLieu
             // 
-            this.txtLieu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLieu.Location = new System.Drawing.Point(234, 149);
+            this.txtLieu.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtLieu.Location = new System.Drawing.Point(115, 81);
+            this.txtLieu.Margin = new System.Windows.Forms.Padding(2);
             this.txtLieu.Name = "txtLieu";
-            this.txtLieu.Size = new System.Drawing.Size(364, 31);
+            this.txtLieu.Size = new System.Drawing.Size(184, 20);
             this.txtLieu.TabIndex = 5;
             // 
             // txtHeure
             // 
-            this.txtHeure.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtHeure.Location = new System.Drawing.Point(234, 323);
+            this.txtHeure.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtHeure.Location = new System.Drawing.Point(115, 172);
+            this.txtHeure.Margin = new System.Windows.Forms.Padding(2);
             this.txtHeure.Name = "txtHeure";
-            this.txtHeure.Size = new System.Drawing.Size(58, 31);
+            this.txtHeure.Size = new System.Drawing.Size(31, 20);
             this.txtHeure.TabIndex = 11;
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 518);
+            this.label1.Location = new System.Drawing.Point(46, 273);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 25);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 17;
             this.label1.Text = "Descri&ption :";
             // 
             // txtRecompenses
             // 
-            this.txtRecompenses.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRecompenses.Location = new System.Drawing.Point(234, 385);
+            this.txtRecompenses.AcceptsReturn = true;
+            this.txtRecompenses.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtRecompenses.Location = new System.Drawing.Point(115, 204);
+            this.txtRecompenses.Margin = new System.Windows.Forms.Padding(2);
             this.txtRecompenses.Multiline = true;
             this.txtRecompenses.Name = "txtRecompenses";
-            this.txtRecompenses.Size = new System.Drawing.Size(609, 98);
+            this.txtRecompenses.Size = new System.Drawing.Size(306, 63);
             this.txtRecompenses.TabIndex = 16;
             // 
             // txtDescription
             // 
-            this.txtDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDescription.Location = new System.Drawing.Point(234, 518);
+            this.txtDescription.AcceptsReturn = true;
+            this.txtDescription.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtDescription.Location = new System.Drawing.Point(115, 273);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(609, 178);
+            this.txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtDescription.Size = new System.Drawing.Size(306, 104);
             this.txtDescription.TabIndex = 18;
             // 
             // nudNbJoueurs
             // 
-            this.nudNbJoueurs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.nudNbJoueurs.Location = new System.Drawing.Point(234, 208);
+            this.nudNbJoueurs.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nudNbJoueurs.Location = new System.Drawing.Point(115, 112);
+            this.nudNbJoueurs.Margin = new System.Windows.Forms.Padding(2);
             this.nudNbJoueurs.Name = "nudNbJoueurs";
-            this.nudNbJoueurs.Size = new System.Drawing.Size(120, 31);
+            this.nudNbJoueurs.Size = new System.Drawing.Size(60, 20);
             this.nudNbJoueurs.TabIndex = 7;
             this.nudNbJoueurs.Value = new decimal(new int[] {
             10,
@@ -253,69 +239,63 @@
             // 
             // nudFraisInscription
             // 
-            this.nudFraisInscription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.nudFraisInscription.Location = new System.Drawing.Point(234, 728);
+            this.nudFraisInscription.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nudFraisInscription.Location = new System.Drawing.Point(115, 383);
+            this.nudFraisInscription.Margin = new System.Windows.Forms.Padding(2);
             this.nudFraisInscription.Name = "nudFraisInscription";
-            this.nudFraisInscription.Size = new System.Drawing.Size(120, 31);
+            this.nudFraisInscription.Size = new System.Drawing.Size(60, 20);
             this.nudFraisInscription.TabIndex = 20;
             // 
             // txtMinute
             // 
-            this.txtMinute.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMinute.Location = new System.Drawing.Point(328, 323);
+            this.txtMinute.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtMinute.Location = new System.Drawing.Point(162, 172);
+            this.txtMinute.Margin = new System.Windows.Forms.Padding(2);
             this.txtMinute.Name = "txtMinute";
-            this.txtMinute.Size = new System.Drawing.Size(58, 31);
+            this.txtMinute.Size = new System.Drawing.Size(31, 20);
             this.txtMinute.TabIndex = 13;
             // 
             // lblH
             // 
-            this.lblH.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblH.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblH.AutoSize = true;
-            this.lblH.Location = new System.Drawing.Point(298, 326);
+            this.lblH.Location = new System.Drawing.Point(147, 174);
+            this.lblH.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblH.Name = "lblH";
-            this.lblH.Size = new System.Drawing.Size(24, 25);
+            this.lblH.Size = new System.Drawing.Size(13, 13);
             this.lblH.TabIndex = 12;
             this.lblH.Text = "h";
             // 
             // lblM
             // 
-            this.lblM.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblM.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblM.AutoSize = true;
-            this.lblM.Location = new System.Drawing.Point(392, 326);
+            this.lblM.Location = new System.Drawing.Point(194, 174);
+            this.lblM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblM.Name = "lblM";
-            this.lblM.Size = new System.Drawing.Size(29, 25);
+            this.lblM.Size = new System.Drawing.Size(15, 13);
             this.lblM.TabIndex = 14;
             this.lblM.Text = "m";
             // 
             // btnEnregistrer
             // 
-            this.btnEnregistrer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(100, 851);
+            this.btnEnregistrer.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnEnregistrer.Location = new System.Drawing.Point(19, 439);
+            this.btnEnregistrer.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(286, 95);
+            this.btnEnregistrer.Size = new System.Drawing.Size(174, 59);
             this.btnEnregistrer.TabIndex = 21;
             this.btnEnregistrer.Text = "&Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             // 
             // btnAnnuler
             // 
-            this.btnAnnuler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAnnuler.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAnnuler.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnAnnuler.Location = new System.Drawing.Point(557, 851);
+            this.btnAnnuler.Location = new System.Drawing.Point(247, 439);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(286, 95);
+            this.btnAnnuler.Size = new System.Drawing.Size(174, 59);
             this.btnAnnuler.TabIndex = 22;
             this.btnAnnuler.Text = "&Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
@@ -323,10 +303,10 @@
             // frmCreaModifTournoi
             // 
             this.AcceptButton = this.btnEnregistrer;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnAnnuler;
-            this.ClientSize = new System.Drawing.Size(882, 977);
+            this.ClientSize = new System.Drawing.Size(446, 513);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.lblM);
@@ -351,8 +331,10 @@
             this.Controls.Add(this.lblNomTournoi);
             this.Controls.Add(this.txtNomTournoi);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(908, 1048);
+            this.MaximumSize = new System.Drawing.Size(462, 552);
+            this.MinimumSize = new System.Drawing.Size(462, 552);
             this.Name = "frmCreaModifTournoi";
             this.ShowIcon = false;
             this.Text = "Créer un tournoi";

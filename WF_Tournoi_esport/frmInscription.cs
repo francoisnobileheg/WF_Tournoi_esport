@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace WF_Tournoi_esport
 {
-    public partial class frmConnexInscri : Form
+    public partial class frmInscription : Form
     {
-        public frmConnexInscri()
+        public frmInscription()
         {
             InitializeComponent();
         }
 
-        private void btnConnect_Click(object sender, EventArgs e)
+        private void frmInscription_Load(object sender, EventArgs e)
         {
-            this.Close();
+            txtNomOrganisation.Enabled = false;
+        }
+
+        private void chkOrganisateur_CheckedChanged(object sender, EventArgs e)
+        {
+            txtNomOrganisation.Enabled = !txtNomOrganisation.Enabled;
         }
 
         private void btnInscr_Click(object sender, EventArgs e)

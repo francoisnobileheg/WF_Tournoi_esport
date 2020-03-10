@@ -48,7 +48,8 @@
             this.tsrFenetre});
             this.mnsPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnsPrincipal.Name = "mnsPrincipal";
-            this.mnsPrincipal.Size = new System.Drawing.Size(1510, 40);
+            this.mnsPrincipal.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
+            this.mnsPrincipal.Size = new System.Drawing.Size(686, 24);
             this.mnsPrincipal.TabIndex = 0;
             this.mnsPrincipal.Text = "menuStrip1";
             // 
@@ -59,27 +60,27 @@
             this.tsrVertical,
             this.tsrCascade});
             this.tsrAffichage.Name = "tsrAffichage";
-            this.tsrAffichage.Size = new System.Drawing.Size(136, 36);
+            this.tsrAffichage.Size = new System.Drawing.Size(70, 22);
             this.tsrAffichage.Text = "&Affichage";
             // 
             // tsrHorizontal
             // 
             this.tsrHorizontal.Name = "tsrHorizontal";
-            this.tsrHorizontal.Size = new System.Drawing.Size(259, 44);
+            this.tsrHorizontal.Size = new System.Drawing.Size(129, 22);
             this.tsrHorizontal.Text = "&Horizontal";
             this.tsrHorizontal.Click += new System.EventHandler(this.tsrHorizontal_Click);
             // 
             // tsrVertical
             // 
             this.tsrVertical.Name = "tsrVertical";
-            this.tsrVertical.Size = new System.Drawing.Size(259, 44);
+            this.tsrVertical.Size = new System.Drawing.Size(129, 22);
             this.tsrVertical.Text = "&Vertical";
             this.tsrVertical.Click += new System.EventHandler(this.tsrVertical_Click);
             // 
             // tsrCascade
             // 
             this.tsrCascade.Name = "tsrCascade";
-            this.tsrCascade.Size = new System.Drawing.Size(259, 44);
+            this.tsrCascade.Size = new System.Drawing.Size(129, 22);
             this.tsrCascade.Text = "&Cascade";
             this.tsrCascade.Click += new System.EventHandler(this.tsrCascade_Click);
             // 
@@ -90,41 +91,44 @@
             this.tsrProfilOrganisateur,
             this.frmConnexionInscriptionToolStripMenuItem});
             this.tsrFenetre.Name = "tsrFenetre";
-            this.tsrFenetre.Size = new System.Drawing.Size(116, 36);
+            this.tsrFenetre.Size = new System.Drawing.Size(58, 22);
             this.tsrFenetre.Text = "Fenêtre";
             // 
             // tsrProfilJoueur
             // 
             this.tsrProfilJoueur.Name = "tsrProfilJoueur";
-            this.tsrProfilJoueur.Size = new System.Drawing.Size(375, 44);
+            this.tsrProfilJoueur.Size = new System.Drawing.Size(188, 22);
             this.tsrProfilJoueur.Text = "ProfilJoueur";
             this.tsrProfilJoueur.Click += new System.EventHandler(this.tsrProfilJoueur_Click);
             // 
             // tsrProfilOrganisateur
             // 
             this.tsrProfilOrganisateur.Name = "tsrProfilOrganisateur";
-            this.tsrProfilOrganisateur.Size = new System.Drawing.Size(375, 44);
+            this.tsrProfilOrganisateur.Size = new System.Drawing.Size(188, 22);
             this.tsrProfilOrganisateur.Text = "ProfilOrganisateur";
             this.tsrProfilOrganisateur.Click += new System.EventHandler(this.tsrProfilOrganisateur_Click);
             // 
             // frmConnexionInscriptionToolStripMenuItem
             // 
             this.frmConnexionInscriptionToolStripMenuItem.Name = "frmConnexionInscriptionToolStripMenuItem";
-            this.frmConnexionInscriptionToolStripMenuItem.Size = new System.Drawing.Size(375, 44);
+            this.frmConnexionInscriptionToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.frmConnexionInscriptionToolStripMenuItem.Text = "ConnexionInscription";
             this.frmConnexionInscriptionToolStripMenuItem.Click += new System.EventHandler(this.frmConnexionInscriptionToolStripMenuItem_Click);
             // 
             // frmPrincipaleMDI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1510, 1026);
+            this.ClientSize = new System.Drawing.Size(686, 464);
             this.Controls.Add(this.mnsPrincipal);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnsPrincipal;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmPrincipaleMDI";
             this.Text = "Principale";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmPrincipaleMDI_Load);
+            this.Shown += new System.EventHandler(this.frmPrincipaleMDI_Shown);
             this.mnsPrincipal.ResumeLayout(false);
             this.mnsPrincipal.PerformLayout();
             this.ResumeLayout(false);
