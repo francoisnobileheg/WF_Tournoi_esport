@@ -59,7 +59,6 @@
             this.lblPseudo.Size = new System.Drawing.Size(106, 31);
             this.lblPseudo.TabIndex = 0;
             this.lblPseudo.Text = "Pseudo";
-            this.lblPseudo.Click += new System.EventHandler(this.lblPseudo_Click);
             // 
             // btnModifierProfil
             // 
@@ -82,7 +81,6 @@
             this.lblTournois.Size = new System.Drawing.Size(120, 31);
             this.lblTournois.TabIndex = 2;
             this.lblTournois.Text = "Tournois";
-            this.lblTournois.Click += new System.EventHandler(this.lblTournois_Click);
             // 
             // dtgTournoiConcourus
             // 
@@ -98,7 +96,6 @@
             this.dtgTournoiConcourus.RowTemplate.Height = 33;
             this.dtgTournoiConcourus.Size = new System.Drawing.Size(269, 342);
             this.dtgTournoiConcourus.TabIndex = 4;
-            this.dtgTournoiConcourus.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgTournoiConcourus_CellContentClick);
             // 
             // cmsTournois
             // 
@@ -125,7 +122,6 @@
             this.lblListeJeux.Size = new System.Drawing.Size(165, 31);
             this.lblListeJeux.TabIndex = 6;
             this.lblListeJeux.Text = "Liste de jeux";
-            this.lblListeJeux.Click += new System.EventHandler(this.lblListeJeux_Click);
             // 
             // dtgListeJeux
             // 
@@ -140,7 +136,6 @@
             this.dtgListeJeux.RowTemplate.Height = 33;
             this.dtgListeJeux.Size = new System.Drawing.Size(211, 344);
             this.dtgListeJeux.TabIndex = 7;
-            this.dtgListeJeux.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListeJeux_CellContentClick);
             // 
             // cmsListeJeux
             // 
@@ -149,7 +144,6 @@
             this.supprimerToolStripMenuItem});
             this.cmsListeJeux.Name = "cmsListeJeux";
             this.cmsListeJeux.Size = new System.Drawing.Size(130, 26);
-            this.cmsListeJeux.Opening += new System.ComponentModel.CancelEventHandler(this.cmsListeJeux_Opening);
             // 
             // supprimerToolStripMenuItem
             // 
@@ -193,7 +187,6 @@
             this.chkAVenir.TabIndex = 3;
             this.chkAVenir.Text = "à &venir";
             this.chkAVenir.UseVisualStyleBackColor = true;
-            this.chkAVenir.CheckedChanged += new System.EventHandler(this.chkAVenir_CheckedChanged);
             // 
             // btnSimuTournoi
             // 
@@ -226,7 +219,6 @@
             this.MinimumSize = new System.Drawing.Size(570, 545);
             this.Name = "frmProfilJoueur";
             this.Text = "Profil";
-            this.Load += new System.EventHandler(this.frmProfilJoueur_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgTournoiConcourus)).EndInit();
             this.cmsTournois.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgListeJeux)).EndInit();

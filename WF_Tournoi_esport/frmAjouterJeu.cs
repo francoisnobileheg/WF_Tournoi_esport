@@ -16,5 +16,10 @@ namespace WF_Tournoi_esport
         {
             InitializeComponent();
         }
+
+        private void btnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

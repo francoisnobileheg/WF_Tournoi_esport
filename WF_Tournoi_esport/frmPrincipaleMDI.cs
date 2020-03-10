@@ -52,15 +52,15 @@ namespace WF_Tournoi_esport
             frmCI.Show();
         }
 
-        private void frmPrincipaleMDI_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void frmPrincipaleMDI_Shown(object sender, EventArgs e)
         {
             frmConnexion frm = new frmConnexion();
             frm.ShowDialog();
+        }
+
+        private void tsrQuitter_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -16,10 +16,5 @@ namespace WF_Tournoi_esport
         {
             InitializeComponent();
         }
-
-        private void frmModifierProfilJoueur_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

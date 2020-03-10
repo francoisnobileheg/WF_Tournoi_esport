@@ -243,7 +243,6 @@
             this.MinimumSize = new System.Drawing.Size(428, 334);
             this.Name = "frmModifierProfilJoueur";
             this.Text = "Modifier profil";
-            this.Load += new System.EventHandler(this.frmModifierProfilJoueur_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

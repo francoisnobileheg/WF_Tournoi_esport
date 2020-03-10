@@ -53,6 +53,7 @@
             this.btnAnnuler.TabIndex = 2;
             this.btnAnnuler.Text = "A&nnuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
             // 
             // txtJeu
             // 

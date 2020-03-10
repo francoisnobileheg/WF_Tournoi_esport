@@ -63,8 +63,9 @@
             this.btnQuitter.Name = "btnQuitter";
             this.btnQuitter.Size = new System.Drawing.Size(294, 36);
             this.btnQuitter.TabIndex = 2;
-            this.btnQuitter.Text = "Quitter";
+            this.btnQuitter.Text = "&Quitter";
             this.btnQuitter.UseVisualStyleBackColor = true;
+            this.btnQuitter.Click += new System.EventHandler(this.btnQuitter_Click);
             // 
             // frmListeTournoi
             // 
